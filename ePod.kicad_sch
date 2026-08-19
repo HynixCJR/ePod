@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "06b0641c-70bc-48a3-8549-3d208b825af9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 136.652 29.464)
+		(size 39.878 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "187f0254-2658-40dc-a78b-d459d22191c4")
+		(property "Sheetname" "ESP32-S3-MINI-1U-N4R2"
+			(at 136.652 28.7524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32-s3.kicad_sch"
+			(at 136.652 70.6886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 221.488 31.242)
+		(size 39.116 37.338)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4e47e97c-bbf1-4539-8715-754e0d958dcf")
+		(property "Sheetname" "Audio Outputs"
+			(at 221.488 30.5304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_out.kicad_sch"
+			(at 221.488 69.1646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.816 51.816)
+		(size 41.91 44.704)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "700ca621-9138-4927-9afa-da0526545f2e")
+		(property "Sheetname" "Power"
+			(at 51.816 51.1044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 51.816 97.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 88.9)
+		(size 26.67 49.022)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9f8544a5-ee25-4ca0-96a4-336cdda6329e")
+		(property "Sheetname" "BM83 Bluetooth Module"
+			(at 138.43 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BM83.kicad_sch"
+			(at 138.43 138.5066 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.788 86.36)
+		(size 32.258 43.942)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b4a3ffd7-8978-4d8d-92ae-5467c39d7ff2")
+		(property "Sheetname" "CS43131 DAC AMP"
+			(at 208.788 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CS43131.kicad_sch"
+			(at 208.788 130.8866 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

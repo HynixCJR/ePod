@@ -1,0 +1,444 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cfdd9671-1b26-4364-aab3-ca603c45b937")
+	(paper "A4")
+	(lib_symbols
+		(symbol "JLCImport:MAX17048G_T10"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX17048G_T10"
+				(at 0 -9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:MAX17048G_T10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121738_Analog-Devices-Inc--Maxim-Integrated-MAX17048G-T10_C2682616.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 1 2.5V~4.5V 3uA I2C Lithium Battery Not supported Not supported DFN-8-EP(2x2) Battery Management ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2682616"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "MAX17048G+T10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Analog Devices Inc./Maxim Integrated C2682616 MAX17048G+T10 TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MAX17048G_T10_0_1"
+				(circle
+					(center -8.89 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 -7.62) (xy 9.7511 -7.6102) (xy 9.8464 -7.5813) (xy 9.9342 -7.5344) (xy 10.0112 -7.4712)
+						(xy 10.0744 -7.3942) (xy 10.1213 -7.3064) (xy 10.1502 -7.2111) (xy 10.16 -7.112) (xy 10.1502 7.2111)
+						(xy 10.1213 7.3064) (xy 10.0744 7.3942) (xy 10.0112 7.4712) (xy 9.9342 7.5344) (xy 9.8464 7.5813)
+						(xy 9.7511 7.6102) (xy 9.652 7.62) (xy -9.7511 7.6102) (xy -9.8464 7.5813) (xy -9.9342 7.5344)
+						(xy -10.0112 7.4712) (xy -10.0744 7.3942) (xy -10.1213 7.3064) (xy -10.1502 7.2111) (xy -10.16 7.112)
+						(xy -10.1502 -7.2111) (xy -10.1213 -7.3064) (xy -10.0744 -7.3942) (xy -10.0112 -7.4712) (xy -9.9342 -7.5344)
+						(xy -9.8464 -7.5813) (xy -9.7511 -7.6102) (xy -9.652 -7.62) (xy 9.652 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "CTG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "CELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "ALRT#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "QSTRT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:MAX17048G_T10")
+		(at 102.87 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41ce7c3-bfdc-4a78-9874-9f0b10966afc")
+		(property "Reference" "U5"
+			(at 102.87 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX17048G_T10"
+			(at 102.87 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:MAX17048G_T10"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121738_Analog-Devices-Inc--Maxim-Integrated-MAX17048G-T10_C2682616.pdf"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1 2.5V~4.5V 3uA I2C Lithium Battery Not supported Not supported DFN-8-EP(2x2) Battery Management ROHS"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2682616"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "MAX17048G+T10"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cc44685c-83f3-4753-b1f8-56504bd39879")
+		)
+		(pin "1"
+			(uuid "d1569dfa-ce69-4442-b6a9-9b74804bf2a1")
+		)
+		(pin "5"
+			(uuid "9353629b-52d7-4b02-8074-5c97626f831d")
+		)
+		(pin "6"
+			(uuid "54cdb1b6-b441-4241-ac4b-86c33ecf33bf")
+		)
+		(pin "2"
+			(uuid "58191caf-1d06-4540-95b7-a4d9345daa3b")
+		)
+		(pin "7"
+			(uuid "a8e46102-823b-4633-91b3-2bab181c6e5f")
+		)
+		(pin "4"
+			(uuid "346261b7-1061-413d-ade5-a66f7535ec0f")
+		)
+		(pin "8"
+			(uuid "86ce9d75-0d6b-4ee0-a97d-a46241e3be40")
+		)
+		(pin "9"
+			(uuid "eb60e2c5-082b-445b-a869-e7e1165f9675")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/700ca621-9138-4927-9afa-da0526545f2e/0781aed0-1995-4e68-b32a-c8eed9e708fd"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

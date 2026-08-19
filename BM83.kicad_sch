@@ -1,0 +1,1305 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f331d61b-8a71-48e6-a380-87b152be9543")
+	(paper "A4")
+	(lib_symbols
+		(symbol "JLCImport:BM83SM1-00TB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 35.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BM83SM1-00TB"
+				(at 0 -35.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:BM83SM1-00TB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311301506_Microchip-Tech-BM83SM1-00TB_C6470840.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD-50P Bluetooth Modules ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C6470840"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Microchip Tech"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "BM83SM1-00TB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BM83SM1-00TB C6470840 COMM-SMD_BM83SM1-00TB Microchip Tech"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BM83SM1-00TB_0_1"
+				(circle
+					(center -21.59 31.75)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.352 -33.02) (xy 22.4511 -33.0102) (xy 22.5464 -32.9813) (xy 22.6342 -32.9344) (xy 22.7112 -32.8712)
+						(xy 22.7744 -32.7942) (xy 22.8213 -32.7064) (xy 22.8502 -32.6111) (xy 22.86 -32.512) (xy 22.8502 32.6111)
+						(xy 22.8213 32.7064) (xy 22.7744 32.7942) (xy 22.7112 32.8712) (xy 22.6342 32.9344) (xy 22.5464 32.9813)
+						(xy 22.4511 33.0102) (xy 22.352 33.02) (xy -22.4511 33.0102) (xy -22.5464 32.9813) (xy -22.6342 32.9344)
+						(xy -22.7112 32.8712) (xy -22.7744 32.7942) (xy -22.8213 32.7064) (xy -22.8502 32.6111) (xy -22.86 32.512)
+						(xy -22.8502 -32.6111) (xy -22.8213 -32.7064) (xy -22.7744 -32.7942) (xy -22.7112 -32.8712) (xy -22.6342 -32.9344)
+						(xy -22.5464 -32.9813) (xy -22.4511 -33.0102) (xy -22.352 -33.02) (xy 22.352 -33.02)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 30.48 0)
+					(length 2.54)
+					(name "DR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 27.94 0)
+					(length 2.54)
+					(name "RFS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 25.4 0)
+					(length 2.54)
+					(name "SCLK1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 22.86 0)
+					(length 2.54)
+					(name "DT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 20.32 0)
+					(length 2.54)
+					(name "MCLK1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 17.78 0)
+					(length 2.54)
+					(name "AOHPR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 15.24 0)
+					(length 2.54)
+					(name "AOHPM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 12.7 0)
+					(length 2.54)
+					(name "AOHPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 10.16 0)
+					(length 2.54)
+					(name "MICN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 7.62 0)
+					(length 2.54)
+					(name "MICP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 5.08 0)
+					(length 2.54)
+					(name "AIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 2.54 0)
+					(length 2.54)
+					(name "AIL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 0 0)
+					(length 2.54)
+					(name "MICN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -2.54 0)
+					(length 2.54)
+					(name "MICP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -5.08 0)
+					(length 2.54)
+					(name "MICBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -10.16 0)
+					(length 2.54)
+					(name "DMIC_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -12.7 0)
+					(length 2.54)
+					(name "DMIC1_R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -15.24 0)
+					(length 2.54)
+					(name "DMIC1_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -17.78 0)
+					(length 2.54)
+					(name "P3_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -20.32 0)
+					(length 2.54)
+					(name "P2_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -22.86 0)
+					(length 2.54)
+					(name "ADAP_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -25.4 0)
+					(length 2.54)
+					(name "BAT_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -27.94 0)
+					(length 2.54)
+					(name "SYS_PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -25.4 -30.48 0)
+					(length 2.54)
+					(name "VDD_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -30.48 180)
+					(length 2.54)
+					(name "PWR(MFB)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -27.94 180)
+					(length 2.54)
+					(name "SKI1_AMB_DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -25.4 180)
+					(length 2.54)
+					(name "SK2_KEY_AD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -22.86 180)
+					(length 2.54)
+					(name "P8_6/UART_RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -20.32 180)
+					(length 2.54)
+					(name "P8_5/UART_TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -17.78 180)
+					(length 2.54)
+					(name "P3_4/UART_RTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -15.24 180)
+					(length 2.54)
+					(name "LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -12.7 180)
+					(length 2.54)
+					(name "P0_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -10.16 180)
+					(length 2.54)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "P0_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -5.08 180)
+					(length 2.54)
+					(name "DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -2.54 180)
+					(length 2.54)
+					(name "DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "P0_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 2.54 180)
+					(length 2.54)
+					(name "P2_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 5.08 180)
+					(length 2.54)
+					(name "P0_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 7.62 180)
+					(length 2.54)
+					(name "P1_6/PWM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 10.16 180)
+					(length 2.54)
+					(name "P2_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 12.7 180)
+					(length 2.54)
+					(name "RST_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 15.24 180)
+					(length 2.54)
+					(name "P0_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 17.78 180)
+					(length 2.54)
+					(name "P0_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 20.32 180)
+					(length 2.54)
+					(name "P1_2/TDI_CPU/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 22.86 180)
+					(length 2.54)
+					(name "P1_3/TCK_CPU/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 25.4 180)
+					(length 2.54)
+					(name "P3_7/UART_CTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 27.94 180)
+					(length 2.54)
+					(name "P0_0/UART_TX_IND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 30.48 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:BM83SM1-00TB")
+		(at 110.49 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c27222-407f-4019-9637-5749146195ea")
+		(property "Reference" "U6"
+			(at 110.49 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM83SM1-00TB"
+			(at 110.49 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:BM83SM1-00TB"
+			(at 110.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311301506_Microchip-Tech-BM83SM1-00TB_C6470840.pdf"
+			(at 110.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD-50P Bluetooth Modules ROHS"
+			(at 110.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6470840"
+			(at 110.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Tech"
+			(at 110.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BM83SM1-00TB"
+			(at 110.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "17"
+			(uuid "d9e87624-7f87-4523-9eb3-e1be551331d7")
+		)
+		(pin "2"
+			(uuid "7d055854-bc2b-426d-aa5a-6cbdc12116cb")
+		)
+		(pin "3"
+			(uuid "ded869b1-d296-489b-aa06-1ba5edb85293")
+		)
+		(pin "41"
+			(uuid "408e5136-64be-496c-bff0-d0c844832f0a")
+		)
+		(pin "44"
+			(uuid "251f3a19-087d-4c3f-862c-8d21a83d9932")
+		)
+		(pin "49"
+			(uuid "5508ccde-7fd9-47c0-a140-652a459c72d7")
+		)
+		(pin "42"
+			(uuid "d8609ce6-3157-4d68-b40b-bd1ccf61a2f5")
+		)
+		(pin "47"
+			(uuid "af261ede-ff63-40e0-b121-69f226150b9e")
+		)
+		(pin "5"
+			(uuid "de59e807-2df8-4b4a-879b-e4a37241a4ad")
+		)
+		(pin "48"
+			(uuid "561a1592-8b69-4208-9091-de9dc19b90a5")
+		)
+		(pin "50"
+			(uuid "b94e6dec-7e26-43ff-9e4f-ba21ff49b934")
+		)
+		(pin "10"
+			(uuid "e8e94016-ea38-47b8-8de6-5e4a0ee05d42")
+		)
+		(pin "33"
+			(uuid "97036b7a-4ca5-4ef8-b415-e993621e2ee2")
+		)
+		(pin "35"
+			(uuid "a03cd1e7-0cfb-4230-aed4-1836172f9be8")
+		)
+		(pin "19"
+			(uuid "e07b7064-7c12-41d1-aae6-dda81490aa8a")
+		)
+		(pin "23"
+			(uuid "29532125-9d29-4d1d-9a4e-fbc6e1cab37b")
+		)
+		(pin "26"
+			(uuid "695c9bbc-4a71-4cbc-8187-ff386cac01a7")
+		)
+		(pin "27"
+			(uuid "7532db2e-763d-445a-8ffd-8b0fdb093fa6")
+		)
+		(pin "16"
+			(uuid "64595707-3a13-43ec-89e6-31ab4ad988cf")
+		)
+		(pin "1"
+			(uuid "a32d0a67-65ab-4187-aec7-02cf4131264b")
+		)
+		(pin "38"
+			(uuid "90d95b96-ccc0-4e88-8c51-101172db28c7")
+		)
+		(pin "45"
+			(uuid "e0815f7b-4c29-44df-953e-bdde8c8ffae7")
+		)
+		(pin "12"
+			(uuid "a56bf0a2-2659-4c8f-adee-ec9ac183e3fa")
+		)
+		(pin "13"
+			(uuid "cd97f374-22cc-472f-b9a1-9677f7bbb081")
+		)
+		(pin "21"
+			(uuid "17300e0b-69b8-40af-82d2-70867261daa1")
+		)
+		(pin "25"
+			(uuid "505cf58f-ff6d-4956-8609-d3822edc5c7e")
+		)
+		(pin "9"
+			(uuid "99cefa9b-c561-45c5-9e49-35e17ae96ef1")
+		)
+		(pin "22"
+			(uuid "11acff41-e4d9-4d39-b6d7-23a9b6c2cc5e")
+		)
+		(pin "4"
+			(uuid "ae50880e-f6ff-4d89-b81d-1553ac377f6b")
+		)
+		(pin "28"
+			(uuid "9ebf5ad8-128e-45d4-b6b0-c661ff85e7f8")
+		)
+		(pin "29"
+			(uuid "ef87f613-1869-4cbd-9e96-42a70f5b44d0")
+		)
+		(pin "32"
+			(uuid "964ab86f-c689-44b2-8480-317d1fd26740")
+		)
+		(pin "36"
+			(uuid "220ebc12-7aed-470c-bca1-a64349670609")
+		)
+		(pin "11"
+			(uuid "0b6e29b4-72fa-454a-acbd-76d427656150")
+		)
+		(pin "15"
+			(uuid "f49a1aee-7ccf-4900-9e29-0862855bd1e9")
+		)
+		(pin "20"
+			(uuid "7a28bf2e-03aa-4c18-b71a-bfb14d3126af")
+		)
+		(pin "18"
+			(uuid "4b0960ec-bbd2-4e28-b71b-c6991fc30b9c")
+		)
+		(pin "31"
+			(uuid "e4efa280-fb41-4744-933e-2aba9f555f77")
+		)
+		(pin "8"
+			(uuid "86dc6708-4316-45a2-aa48-798d373c9f73")
+		)
+		(pin "14"
+			(uuid "4540a8b0-9ce1-459f-a468-92f7cf830b7e")
+		)
+		(pin "6"
+			(uuid "48fd0926-d218-4aff-a265-a42db48dcb5b")
+		)
+		(pin "7"
+			(uuid "aeb5be38-9361-4873-8a86-ad19f7d4024e")
+		)
+		(pin "24"
+			(uuid "743a0f9c-f1dc-4a9f-8981-86e34229a7a4")
+		)
+		(pin "30"
+			(uuid "52e941bb-b09f-484b-95c4-906b222cad64")
+		)
+		(pin "34"
+			(uuid "35327ad0-9d23-4439-9e82-b252ea9175b8")
+		)
+		(pin "37"
+			(uuid "4b8c93a9-07f5-42e5-9d30-45867c95998d")
+		)
+		(pin "39"
+			(uuid "35e53b66-a9de-46ef-b733-627e7e8b8541")
+		)
+		(pin "40"
+			(uuid "2dd6b9c0-6db7-4f09-9c63-297ad7d56835")
+		)
+		(pin "43"
+			(uuid "68ffaa5d-d51f-46f6-b7e6-a9dcb6b264db")
+		)
+		(pin "46"
+			(uuid "d9ed8b75-82a5-4477-9bd5-81dd53b0b733")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/9f8544a5-ee25-4ca0-96a4-336cdda6329e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

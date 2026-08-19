@@ -1,0 +1,1449 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1174dfbc-bc31-436c-8884-ee42de15c775")
+	(paper "A4")
+	(lib_symbols
+		(symbol "JLCImport:CS43131-CNZR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 50.26 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CS43131-CNZR"
+				(at 0 -50.26 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:CS43131-CNZR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://pdf1.alldatasheetcn.com/datasheet-pdf/view/393547/INTERSIL/ISL62883CHRTZ.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LQFN-40-EP(5x5) Digital to Analog Converters (DAC) ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C965907"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Cirrus Logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CS43131-CNZR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C965907 CS43131-CNZR Cirrus Logic TQFN-40_L5.0-W5.0-P0.40-TL-EP3.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CS43131-CNZR_0_1"
+				(circle
+					(center -19.05 46.99)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.812 -48.26) (xy 19.9111 -48.2502) (xy 20.0064 -48.2213) (xy 20.0942 -48.1744) (xy 20.1712 -48.1112)
+						(xy 20.2344 -48.0342) (xy 20.2813 -47.9464) (xy 20.3102 -47.8511) (xy 20.32 -47.752) (xy 20.3102 47.8511)
+						(xy 20.2813 47.9464) (xy 20.2344 48.0342) (xy 20.1712 48.1112) (xy 20.0942 48.1744) (xy 20.0064 48.2213)
+						(xy 19.9111 48.2502) (xy 19.812 48.26) (xy -19.9111 48.2502) (xy -20.0064 48.2213) (xy -20.0942 48.1744)
+						(xy -20.1712 48.1112) (xy -20.2344 48.0342) (xy -20.2813 47.9464) (xy -20.3102 47.8511) (xy -20.32 47.752)
+						(xy -20.3102 -47.8511) (xy -20.2813 -47.9464) (xy -20.2344 -48.0342) (xy -20.1712 -48.1112) (xy -20.0942 -48.1744)
+						(xy -20.0064 -48.2213) (xy -19.9111 -48.2502) (xy -19.812 -48.26) (xy 19.812 -48.26)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 35.56 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 22.86 0)
+					(length 2.54)
+					(name "SDIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "TSO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -22.86 0)
+					(length 2.54)
+					(name "VD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 45.72 0)
+					(length 2.54)
+					(name "FILT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 43.18 0)
+					(length 2.54)
+					(name "FILT–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -20.32 0)
+					(length 2.54)
+					(name "VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -30.48 180)
+					(length 2.54)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 12.7 180)
+					(length 2.54)
+					(name "-VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -43.18 0)
+					(length 2.54)
+					(name "FLYP_VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -38.1 0)
+					(length 2.54)
+					(name "FLYN_VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 35.56 180)
+					(length 2.54)
+					(name "HPINA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 25.4 180)
+					(length 2.54)
+					(name "HPREFA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 30.48 180)
+					(length 2.54)
+					(name "HPOUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 33.02 180)
+					(length 2.54)
+					(name "HPINB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 27.94 180)
+					(length 2.54)
+					(name "HPOUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 22.86 180)
+					(length 2.54)
+					(name "HPREFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -12.7 0)
+					(length 2.54)
+					(name "VCP_FILT–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -33.02 180)
+					(length 2.54)
+					(name "GNDCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -40.64 0)
+					(length 2.54)
+					(name "FLYN_VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -10.16 0)
+					(length 2.54)
+					(name "VCP_FILT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 20.32 180)
+					(length 2.54)
+					(name "HP_DETECT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -35.56 0)
+					(length 2.54)
+					(name "FLYC_VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -45.72 0)
+					(length 2.54)
+					(name "FLYP_VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -7.62 0)
+					(length 2.54)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -27.94 0)
+					(length 2.54)
+					(name "VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 5.08 180)
+					(length 2.54)
+					(name "INT#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "RESET#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 2.54 0)
+					(length 2.54)
+					(name "DSDB/LRCK2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 10.16 180)
+					(length 2.54)
+					(name "ADR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -25.4 0)
+					(length 2.54)
+					(name "VL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 0 0)
+					(length 2.54)
+					(name "DSDCLK/SCLK2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 7.62 180)
+					(length 2.54)
+					(name "CLKOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 33.02 0)
+					(length 2.54)
+					(name "SCLK1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -35.56 180)
+					(length 2.54)
+					(name "GNDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 12.7 0)
+					(length 2.54)
+					(name "XTO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 15.24 0)
+					(length 2.54)
+					(name "XTI/MCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 2.54 180)
+					(length 2.54)
+					(name "LRCK1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 25.4 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 5.08 0)
+					(length 2.54)
+					(name "DSDA/SDIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -45.72 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:LP5907MFX-1_8_NOPB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LP5907MFX-1_8_NOPB"
+				(at 0 -8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:LP5907MFX-1_8_NOPB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302221930_Texas-Instruments-LP5907MFX-1-8-NOPB_C92498.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+125℃@(Tj) 1 1.8V 120mV@(250mA) 12uA 250mA 5.5V 6.5uVrms 82dB@(1kHz) Fixed Positive Under Voltage Lockout、Over Temperature Protection、Enable、Short Circuit Protection SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C92498"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "LP5907MFX-1.8/NOPB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C92498 LP5907MFX-1.8/NOPB SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LP5907MFX-1_8_NOPB_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:LP5907MFX-1_8_NOPB")
+		(at 182.88 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a86ee3e-95a9-48a2-8ac4-a676cf2f073b")
+		(property "Reference" "U3"
+			(at 182.88 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP5907MFX-1_8_NOPB"
+			(at 182.88 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:LP5907MFX-1_8_NOPB"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302221930_Texas-Instruments-LP5907MFX-1-8-NOPB_C92498.pdf"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃@(Tj) 1 1.8V 120mV@(250mA) 12uA 250mA 5.5V 6.5uVrms 82dB@(1kHz) Fixed Positive Under Voltage Lockout、Over Temperature Protection、Enable、Short Circuit Protection SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C92498"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "LP5907MFX-1.8/NOPB"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "892cc34a-549e-40b0-9c92-c8aefceeb623")
+		)
+		(pin "4"
+			(uuid "17042f66-8598-4e84-8a01-1dbc55191be0")
+		)
+		(pin "5"
+			(uuid "0141cb28-7d48-4f85-aef9-101c6742a2ce")
+		)
+		(pin "3"
+			(uuid "5a5d71b0-45ab-47a5-a361-d5690045dcd7")
+		)
+		(pin "2"
+			(uuid "dfc205d8-de1c-48fb-b5e6-3188cee67064")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/b4a3ffd7-8978-4d8d-92ae-5467c39d7ff2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CS43131-CNZR")
+		(at 118.11 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa53b1b7-9dce-4d1d-96f0-c858e1f1c301")
+		(property "Reference" "U2"
+			(at 118.11 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CS43131-CNZR"
+			(at 118.11 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:CS43131-CNZR"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pdf1.alldatasheetcn.com/datasheet-pdf/view/393547/INTERSIL/ISL62883CHRTZ.html"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LQFN-40-EP(5x5) Digital to Analog Converters (DAC) ROHS"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C965907"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cirrus Logic"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CS43131-CNZR"
+			(at 118.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "cb6174e5-9586-415e-8147-20b0683a01a4")
+		)
+		(pin "12"
+			(uuid "896bf987-0316-43af-9d24-54df4d18a8a6")
+		)
+		(pin "1"
+			(uuid "ce5c1d65-a545-450a-9c74-c2108c49aa30")
+		)
+		(pin "2"
+			(uuid "cc3044a3-dd55-4068-b7a2-9a799d8e4fc7")
+		)
+		(pin "10"
+			(uuid "73cf01d7-68f4-469f-8b0e-b7d21bf66aef")
+		)
+		(pin "11"
+			(uuid "cdb4b9e5-5ebd-4e1a-a6f8-9d84375da1e6")
+		)
+		(pin "13"
+			(uuid "b7f47e68-f67f-4819-b989-464b3f77e2ee")
+		)
+		(pin "3"
+			(uuid "07a383ec-f306-4cba-8972-4ebb839fba34")
+		)
+		(pin "4"
+			(uuid "b4d661f4-fb25-4e23-994d-7c2650eff85b")
+		)
+		(pin "5"
+			(uuid "dfd4057d-14c3-4b04-b48c-216794e533c8")
+		)
+		(pin "6"
+			(uuid "bc662459-cde9-4d3d-aaf9-22d4efd17835")
+		)
+		(pin "8"
+			(uuid "82357ec6-c81f-4f30-b6e4-22d83d41b827")
+		)
+		(pin "9"
+			(uuid "8c0701d1-3b03-42a1-a158-15dab4c1ba83")
+		)
+		(pin "14"
+			(uuid "a929e0d2-fab8-4ecd-9696-9005b8824847")
+		)
+		(pin "15"
+			(uuid "0637c1db-6cb2-40e6-b495-37c451054c4a")
+		)
+		(pin "16"
+			(uuid "24e3e137-2794-4566-8fc2-e7fa105158b7")
+		)
+		(pin "17"
+			(uuid "b4367984-0923-489e-b8c1-c4f3b71bd05f")
+		)
+		(pin "22"
+			(uuid "a6c32b77-1ef4-43d7-a6cf-cde1bb5098ad")
+		)
+		(pin "30"
+			(uuid "204caf9f-9100-4b0b-988e-fc2addaa1d39")
+		)
+		(pin "19"
+			(uuid "6c4cd430-f572-4805-8716-b158611b2d0b")
+		)
+		(pin "26"
+			(uuid "613ae292-ff16-45ac-838a-3a161e5194dc")
+		)
+		(pin "33"
+			(uuid "3c9f591d-b712-49c4-9710-f9c418bc7de9")
+		)
+		(pin "20"
+			(uuid "d214ccd9-c2b2-4f4f-923c-6783906047dc")
+		)
+		(pin "29"
+			(uuid "b367174b-82f2-4c91-a74e-676bfc9b5b87")
+		)
+		(pin "34"
+			(uuid "f7c180c8-dba5-4264-9be7-72c02e9b5f7e")
+		)
+		(pin "21"
+			(uuid "71a959d9-f9d4-4bfe-9153-2cd5b3724194")
+		)
+		(pin "35"
+			(uuid "706d2bdf-d2d7-4e3d-af2d-9b98c295ba9f")
+		)
+		(pin "31"
+			(uuid "310e955f-6194-44ee-93b5-9bfe11dac7d5")
+		)
+		(pin "36"
+			(uuid "06bf1129-a5ea-4c72-bd73-2c2b61dbe089")
+		)
+		(pin "40"
+			(uuid "7e503923-8d8f-490f-b038-d4b764b79a15")
+		)
+		(pin "18"
+			(uuid "33f12e73-eee5-405f-8729-e7f43491c9ce")
+		)
+		(pin "23"
+			(uuid "f1e8daf0-8940-413c-a611-36a028735e84")
+		)
+		(pin "41"
+			(uuid "e89b4eae-af00-434e-a6c9-9874578fad99")
+		)
+		(pin "27"
+			(uuid "e124d875-e628-4114-b1a8-93667ade138f")
+		)
+		(pin "37"
+			(uuid "45045226-24f9-4f1a-9497-b87e376df463")
+		)
+		(pin "32"
+			(uuid "e3cefdc8-d4e9-4c7e-b679-02a7a2d60e4f")
+		)
+		(pin "28"
+			(uuid "d3026041-b925-421e-aa3e-cbdc471acfb4")
+		)
+		(pin "38"
+			(uuid "fad8dce8-a652-4303-bc14-0b270c411105")
+		)
+		(pin "39"
+			(uuid "e0a29295-2f3e-4bd6-b52a-205ea33d9176")
+		)
+		(pin "25"
+			(uuid "ca8707f0-83c2-4a4b-8c84-eacb8c218c15")
+		)
+		(pin "24"
+			(uuid "e33de0cb-6a50-4da7-9b99-82f35495aaa2")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/b4a3ffd7-8978-4d8d-92ae-5467c39d7ff2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

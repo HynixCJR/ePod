@@ -1,0 +1,538 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "12b31b25-861a-4b12-93bf-f6a346b0a241")
+	(paper "A4")
+	(lib_symbols
+		(symbol "JLCImport:LX7167ACLD-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LX7167ACLD-TR"
+				(at 0 -9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:LX7167ACLD-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211080230_Microchip-Tech-LX7167ACLD-TR_C5229463.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-10℃~+85℃@(TA) 1 2.4A 3MHz 3V~5.5V 600mV~5V Adjustable Buck Buck Built-in Yes WDFN-8(2x2) DC-DC Converters ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5229463"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Microchip Tech"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "LX7167ACLD-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C5229463 LX7167ACLD-TR Microchip Tech WDFN-8_L2.0-W2.0-P0.50-BL-EP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LX7167ACLD-TR_0_1"
+				(circle
+					(center -7.62 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -7.62) (xy 8.4811 -7.6102) (xy 8.5764 -7.5813) (xy 8.6642 -7.5344) (xy 8.7412 -7.4712)
+						(xy 8.8044 -7.3942) (xy 8.8513 -7.3064) (xy 8.8802 -7.2111) (xy 8.89 -7.112) (xy 8.8802 7.2111)
+						(xy 8.8513 7.3064) (xy 8.8044 7.3942) (xy 8.7412 7.4712) (xy 8.6642 7.5344) (xy 8.5764 7.5813)
+						(xy 8.4811 7.6102) (xy 8.382 7.62) (xy -8.4811 7.6102) (xy -8.5764 7.5813) (xy -8.6642 7.5344)
+						(xy -8.7412 7.4712) (xy -8.8044 7.3942) (xy -8.8513 7.3064) (xy -8.8802 7.2111) (xy -8.89 7.112)
+						(xy -8.8802 -7.2111) (xy -8.8513 -7.3064) (xy -8.8044 -7.3942) (xy -8.7412 -7.4712) (xy -8.6642 -7.5344)
+						(xy -8.5764 -7.5813) (xy -8.4811 -7.6102) (xy -8.382 -7.62) (xy 8.382 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:LX7167ACLD-TR")
+		(at 118.11 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87a62551-a15b-45fc-b385-b8d92a28995f")
+		(property "Reference" "U4"
+			(at 118.11 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LX7167ACLD-TR"
+			(at 118.11 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:LX7167ACLD-TR"
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211080230_Microchip-Tech-LX7167ACLD-TR_C5229463.pdf"
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-10℃~+85℃@(TA) 1 2.4A 3MHz 3V~5.5V 600mV~5V Adjustable Buck Buck Built-in Yes WDFN-8(2x2) DC-DC Converters ROHS"
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5229463"
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Tech"
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "LX7167ACLD-TR"
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9228704-d029-421a-8a38-804170da0b8e")
+		)
+		(pin "5"
+			(uuid "98f04e1a-931b-4ca6-b2cd-c6b9424e33ae")
+		)
+		(pin "2"
+			(uuid "0fef13f1-138a-4606-b821-ecea725479dc")
+		)
+		(pin "6"
+			(uuid "5aa7f531-b97c-4221-991d-37dd2dd66173")
+		)
+		(pin "8"
+			(uuid "f8068696-83c6-4e82-93e8-ada3981a00d2")
+		)
+		(pin "7"
+			(uuid "435e3d9e-4f72-48dc-b6ff-2d4e0ac82fce")
+		)
+		(pin "9"
+			(uuid "a4fb648d-5945-428e-ade1-39d901a57598")
+		)
+		(pin "4"
+			(uuid "7b8c8168-0ec8-4dbc-8758-835fb390294b")
+		)
+		(pin "3"
+			(uuid "5450c923-8cd1-491f-9818-eed1e93e63a0")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/700ca621-9138-4927-9afa-da0526545f2e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 73.152)
+		(size 34.29 17.272)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0781aed0-1995-4e68-b32a-c8eed9e708fd")
+		(property "Sheetname" "MAX17048 Fuel Gauge"
+			(at 121.92 72.4404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "max17048.kicad_sch"
+			(at 121.92 91.0086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/700ca621-9138-4927-9afa-da0526545f2e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 70.104)
+		(size 35.052 36.322)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee4d927d-91f3-4e5f-b4fa-c6f68e3c637c")
+		(property "Sheetname" "BQ25185 Battery Charger"
+			(at 68.58 69.3924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bq25185.kicad_sch"
+			(at 68.58 107.0106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/700ca621-9138-4927-9afa-da0526545f2e"
+					(page "7")
+				)
+			)
+		)
+	)
+)
