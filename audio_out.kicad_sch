@@ -3,8 +3,401 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "e7eef9cd-9a4e-4ad7-bf52-7d709760fc6f")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
+		(symbol "JLCImport:ESD122DMXR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD122DMXR"
+				(at 0 -12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:ESD122DMXR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303021130_Texas-Instruments-ESD122DMXR_C544474.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+125℃ 0.2pF 10nA 2 2.5A@8/20us 20W@8/20us 3.6V 7.9V 8.4V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 X2-SON-3(0.6x1) ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C544474"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "ESD122DMXR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C544474 ESD122DMXR Texas Instruments X2SON-3_L1.0-W0.6-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESD122DMXR_0_1"
+				(circle
+					(center -3.81 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -7.62) (xy 2.1311 -7.6102) (xy 2.2264 -7.5813) (xy 2.3142 -7.5344) (xy 2.3912 -7.4712)
+						(xy 2.4544 -7.3942) (xy 2.5013 -7.3064) (xy 2.5302 -7.2111) (xy 2.54 -7.112) (xy 2.5302 7.2111)
+						(xy 2.5013 7.3064) (xy 2.4544 7.3942) (xy 2.3912 7.4712) (xy 2.3142 7.5344) (xy 2.2264 7.5813)
+						(xy 2.1311 7.6102) (xy 2.032 7.62) (xy -4.6711 7.6102) (xy -4.7664 7.5813) (xy -4.8542 7.5344)
+						(xy -4.9312 7.4712) (xy -4.9944 7.3942) (xy -5.0413 7.3064) (xy -5.0702 7.2111) (xy -5.08 7.112)
+						(xy -5.0702 -7.2111) (xy -5.0413 -7.3064) (xy -4.9944 -7.3942) (xy -4.9312 -7.4712) (xy -4.8542 -7.5344)
+						(xy -4.7664 -7.5813) (xy -4.6711 -7.6102) (xy -4.572 -7.62) (xy 2.032 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:PJ-3210-4A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Audio"
+				(at 0 3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-3210-4A"
+				(at 0 -5.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:PJ-3210-4A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121712_Korean-Hroparts-Elec-PJ-3210-4A_C136686.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.5mm Headphone Jack 30V 500mA Gold Phosphor bronze 插件 Audio Connectors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C136686"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Korean Hroparts Elec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "PJ-3210-4A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "AUDIO_TH_PJ-3210-4A C136686 Korean Hroparts Elec PJ-3210-4A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-3210-4A_0_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -6.35 1.27) (xy -6.35 -2.794) (xy -7.112 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -4.318 -1.27) (xy -4.826 -1.778) (xy -5.334 -1.27) (xy -5.334 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -1.524 -3.81) (xy -2.032 -3.302) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 1.27 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -3.81 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -1.27 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:PJ-611C"
 			(pin_names
 				(offset 1.016)
@@ -343,9 +736,295 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b052f30-f384-46ab-996e-c58426a52145")
+	)
+	(wire
+		(pts
+			(xy 63.5 49.53) (xy 68.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2551ad98-745d-413d-99c7-6cf1d583a9e6")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 78.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc43f9c-edf2-4ebb-9c38-82fa1bbc725e")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c58b782-9f5d-4a1f-8e9a-98dbd80e53ec")
+	)
+	(wire
+		(pts
+			(xy 76.2 54.61) (xy 85.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308cb45b-45fc-4e9b-8b42-11882e0704c5")
+	)
+	(wire
+		(pts
+			(xy 76.2 59.69) (xy 91.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347160b5-02e6-4a54-a002-c8e6756dbc51")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395e9a5a-52f5-49c8-9b3a-07d24d9b92d4")
+	)
+	(wire
+		(pts
+			(xy 63.5 46.99) (xy 76.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b195bf9-eb20-4e09-be6a-a2bf67673e21")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 83.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe581c9-22ad-4e43-b33a-ec46cbb260c9")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 83.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5081e170-8c21-433c-b9fa-88c8c03444ba")
+	)
+	(wire
+		(pts
+			(xy 78.74 71.12) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e7d9f4-e6ad-4ecf-80c1-5850a21d9b15")
+	)
+	(wire
+		(pts
+			(xy 63.5 73.66) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61066855-0b42-4b66-a8bd-187bdce52740")
+	)
+	(wire
+		(pts
+			(xy 63.5 44.45) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65aa6311-9c69-48a8-b37b-360f04449734")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e618c0-6bcf-4925-bc82-7b9ae26309b2")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f581547-aee3-4300-b861-87370a7aabfa")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfae4c1-98b4-49cc-bb16-f516a44749bc")
+	)
+	(wire
+		(pts
+			(xy 91.44 59.69) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4387675-cdef-4cbd-a586-330920dc8cee")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 76.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff17de13-a42c-4b1b-ba63-3f8cec7a0153")
+	)
+	(label "AudioL"
+		(at 68.58 44.45 180)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+			(justify right bottom)
+		)
+		(uuid "982e6249-9d9e-4913-80f6-644162304797")
+	)
+	(label "AudioR"
+		(at 71.12 73.66 180)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b21ef56-6805-478d-be54-85f28acc5880")
+	)
+	(label "AudioL"
+		(at 71.12 71.12 180)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fdde39e-bb3a-4b71-b582-78315a8e433e")
+	)
+	(label "AudioR"
+		(at 68.58 49.53 180)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+			(justify right bottom)
+		)
+		(uuid "d31c2e23-d496-40cf-a95b-4e722158cf64")
+	)
+	(hierarchical_label "HP_DETECT"
+		(shape output)
+		(at 63.5 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "070e2262-7e55-4f38-9126-ce18f337c921")
+	)
+	(hierarchical_label "AudioL"
+		(shape input)
+		(at 85.09 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bd4b95b-d596-44cf-89ad-27e340dad3e9")
+	)
+	(hierarchical_label "AudioGND"
+		(shape input)
+		(at 63.5 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "301b638e-82d7-4552-a1d4-ce46ad784b0f")
+	)
+	(hierarchical_label "AudioR"
+		(shape input)
+		(at 85.09 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91f98548-e883-4fef-b036-2236f36358b0")
+	)
+	(hierarchical_label "AudioGND"
+		(shape input)
+		(at 91.44 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a95a9bcb-e0f7-4f7d-b8f6-c69320153056")
+	)
+	(hierarchical_label "AudioGND"
+		(shape input)
+		(at 92.71 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f15f2890-5429-466f-80d4-ded49f6eb546")
+	)
 	(symbol
 		(lib_id "JLCImport:PJ-611C")
-		(at 139.7 73.66 0)
+		(at 55.88 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -356,7 +1035,7 @@
 		(fields_autoplaced yes)
 		(uuid "633f5b83-512c-4c9a-9ccc-c6b21f4039f2")
 		(property "Reference" "J1"
-			(at 138.684 60.96 0)
+			(at 54.864 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -366,7 +1045,7 @@
 			)
 		)
 		(property "Value" "PJ-611C"
-			(at 138.684 63.5 0)
+			(at 54.864 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -376,7 +1055,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:PJ-611C"
-			(at 139.7 73.66 0)
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -387,7 +1066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_HOOYA-PJ-611C_C309280.pdf"
-			(at 139.7 73.66 0)
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -398,7 +1077,7 @@
 			)
 		)
 		(property "Description" "-20℃~+70℃ 30V 500mA 6.35mm Headphone Jack 插件 Audio Connectors ROHS"
-			(at 139.7 73.66 0)
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -409,7 +1088,7 @@
 			)
 		)
 		(property "LCSC" "C309280"
-			(at 139.7 73.66 0)
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -420,7 +1099,7 @@
 			)
 		)
 		(property "Manufacturer" "HOOYA"
-			(at 139.7 73.66 0)
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -431,7 +1110,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PJ-611C"
-			(at 139.7 73.66 0)
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -463,6 +1142,355 @@
 			(project "ePod"
 				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/4e47e97c-bbf1-4539-8715-754e0d958dcf"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:PJ-3210-4A")
+		(at 57.15 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7330c0c8-3cc4-429c-8f5a-fa1faa10592f")
+		(property "Reference" "Audio1"
+			(at 54.229 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-3210-4A"
+			(at 54.229 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:PJ-3210-4A"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121712_Korean-Hroparts-Elec-PJ-3210-4A_C136686.pdf"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.5mm Headphone Jack 30V 500mA Gold Phosphor bronze 插件 Audio Connectors ROHS"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C136686"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "PJ-3210-4A"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "66143328-8ceb-4241-8b58-48119b00f36d")
+		)
+		(pin "2"
+			(uuid "b69c094f-7ff6-46dc-a8f4-2f7ce9502d9b")
+		)
+		(pin "1"
+			(uuid "8407f4c6-e119-4048-b177-90fec06b33cb")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/4e47e97c-bbf1-4539-8715-754e0d958dcf"
+					(reference "Audio1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:ESD122DMXR")
+		(at 85.09 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c05a04f-01f1-41f3-bc96-45e2cb62d7b7")
+		(property "Reference" "D3"
+			(at 91.186 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD122DMXR"
+			(at 91.186 51.562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:ESD122DMXR"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303021130_Texas-Instruments-ESD122DMXR_C544474.pdf"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 0.2pF 10nA 2 2.5A@8/20us 20W@8/20us 3.6V 7.9V 8.4V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 X2-SON-3(0.6x1) ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C544474"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ESD122DMXR"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca924ca7-de5e-4ed3-bf35-01d21f895392")
+		)
+		(pin "2"
+			(uuid "96cef3aa-1a6e-4895-9cd9-eaeb17759d7e")
+		)
+		(pin "3"
+			(uuid "35338939-e00d-439b-bc58-2dc051b73b7b")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/4e47e97c-bbf1-4539-8715-754e0d958dcf"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:ESD122DMXR")
+		(at 83.82 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa581dc6-fab2-4e7e-8ca1-ad21f89c4a50")
+		(property "Reference" "D2"
+			(at 89.916 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD122DMXR"
+			(at 89.916 79.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:ESD122DMXR"
+			(at 83.82 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303021130_Texas-Instruments-ESD122DMXR_C544474.pdf"
+			(at 83.82 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 0.2pF 10nA 2 2.5A@8/20us 20W@8/20us 3.6V 7.9V 8.4V Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 X2-SON-3(0.6x1) ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 83.82 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C544474"
+			(at 83.82 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 83.82 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ESD122DMXR"
+			(at 83.82 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "127f8c1b-c2bc-47f2-a0f4-626f387f033b")
+		)
+		(pin "2"
+			(uuid "85669642-fe16-4736-9af5-63271a0cd973")
+		)
+		(pin "3"
+			(uuid "8ce4194f-112e-4d77-8ffb-4edcd896916d")
+		)
+		(instances
+			(project "ePod"
+				(path "/06b0641c-70bc-48a3-8549-3d208b825af9/4e47e97c-bbf1-4539-8715-754e0d958dcf"
+					(reference "D2")
 					(unit 1)
 				)
 			)

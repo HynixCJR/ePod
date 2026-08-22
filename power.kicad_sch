@@ -442,7 +442,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 73.152)
+		(at 107.188 69.596)
 		(size 34.29 17.272)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -458,7 +458,7 @@
 		)
 		(uuid "0781aed0-1995-4e68-b32a-c8eed9e708fd")
 		(property "Sheetname" "MAX17048 Fuel Gauge"
-			(at 121.92 72.4404 0)
+			(at 107.188 68.8844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -469,7 +469,7 @@
 			)
 		)
 		(property "Sheetfile" "max17048.kicad_sch"
-			(at 121.92 91.0086 0)
+			(at 107.188 87.4526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -632,7 +632,7 @@
         "uuid": "06b0641c-70bc-48a3-8549-3d208b825af9"
       }
     ],
-    "used_designators": "J1,U1-6,ESP1",
+    "used_designators": "R1-10,J1-2,U1-10,D1-3,ESP1,CN1,Audio1-2,C1-23,#PWR1-5",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,10 @@
     [
       "0781aed0-1995-4e68-b32a-c8eed9e708fd",
       "MAX17048 Fuel Gauge"
+    ],
+    [
+      "d7cd5732-6fc7-4dd0-a91b-65d220593bc1",
+      "3.3V -> 1.8V Level Shifters"
     ]
   ],
   "text_variables": {},
